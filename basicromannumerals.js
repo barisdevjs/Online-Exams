@@ -4,14 +4,11 @@ function BasicRomanNumerals(str) {
         'I': 1,
         'V': 5,
         'X': 10,
-        'L': 50,            // creating a dictionary of symbols and their values
+        'L': 50,            
         'C': 100,           
-        'D': 500,           // Bu challenge çözülürken coderbyte sitesi
-        'M': 1000           // adblocker uyarısı verdi.Defalarca uzantıların
-    }                       // hepsini disable etmeme rağmen yine de 
-                            // bu challenge coderbyte sitesinde çözemedim
-                            // O yüzden IDE'de yazıp kopyalamak zorunda kaldım
-                            // Ekran görüntüsü aldım, kanıtlanmaya açıktır
+        'D': 500,           
+        'M': 1000           
+    }                       
 
     let result = 0;
 
