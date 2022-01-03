@@ -5,10 +5,11 @@ const https = require('https');
    let contentType = resp.headers['content-type']
    resp.setEncoding('utf-8') */
    let data = '';
-
   // parse json data here...
   resp.on('data', (d) => {
     data += [d]
+data
+    
   })
 
   resp.on('end', () => {
