@@ -13,4 +13,4 @@ export function rounds_won( results ) {
     return won > secondPlayer ? won : secondPlayer > won ? secondPlayer : won
 }
 
-console.log( rounds_won([ 1,2,2,2,2,2,1]) );
+console.log(rounds_won([ 1,2,2,2,2,2,1]));
