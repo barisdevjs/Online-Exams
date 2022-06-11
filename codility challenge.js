@@ -27,4 +27,6 @@ console.log(arrayPacking([24, 85, 0])) */
       }
 const arr = range(number)
 return arr.filter((element) => element % 3 == 0 || element % 5 == 0).reduce((a, b) => a +b, 0)
-} */
+}
+
+console.log(solution(10)) */
