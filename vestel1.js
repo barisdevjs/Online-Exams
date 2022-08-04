@@ -1,4 +1,6 @@
-import fetch from 'node-fetch';
+import fetch from "node-fetch";
+
+// uncomment the upper line
 
 // API endpoint: https://jsonmock.hackerrank.com/api/stocks?date=<date>
 /* {
@@ -18,7 +20,9 @@ import fetch from 'node-fetch';
     const json = await response.json();
     const stock = json.data[0];
     console.log(`Open: ${stock.open} High: ${stock.high} Low: ${stock.low} Close: ${stock.close}`);
-
+    return `Open: ${stock.open} High: ${stock.high} Low: ${stock.low} Close: ${stock.close}`;
 }
 
-console.log(getStockInformation('5-January-2000'));
+
+const res = await getStockInformation('5-January-2000');
+console.log(res);
