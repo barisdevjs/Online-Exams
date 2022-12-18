@@ -22,6 +22,5 @@ function getMaxProfit(stockPrices) {
 
 
 const stockPrices = [10, 7, 5, 8, 11, 9];
-
 console.log(getMaxProfit(stockPrices));
 
