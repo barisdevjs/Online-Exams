@@ -8,8 +8,6 @@ const https = require('https');
   // parse json data here...
   resp.on('data', (d) => {
     data += [d]
-data
-    
   })
 
   resp.on('end', () => {
@@ -25,7 +23,5 @@ data
   resp.on("error", (e) => {
     console.log("error", e)
   })
-
-  //console.log(resp);
 
 });
