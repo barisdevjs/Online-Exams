@@ -6,10 +6,9 @@
 // Language: typescript
 // Path: wunderInnovation3.ts
 
-export {}
+export { }
 
-
-function matchesK(N: number, K: number, inputArray: number[]): string {
+/* function matchesK(N: number, K: number, inputArray: number[]): string {
 
     let sum: number = 0;
     let result: string = "No";
@@ -46,4 +45,6 @@ function binarySearch(inputArray: number[], complement: number): number {
 }
 
 console.log(matchesK(7, 1024, [1, 128, 128, 256, 512, 512, 512]));
-// matchesK(7,1024,[1,128,128,256,512,512,512]) must return "Yes"
+// matchesK(7,1024,[1,128,128,256,512,512,512]) must return "Yes" */
+
+

@@ -4,7 +4,7 @@ function ArrayChallenge(arr) {
     let minPrice = arr[0]
     let maxProfit = arr[1] - arr[0]
     let minIdx = 0
-  
+   
     for ( let i = 1; i < arr.length; ++i) {
       if (arr[i] - minPrice > maxProfit) {
         maxProfit = arr[i] - minPrice
