@@ -1,4 +1,4 @@
-function rounds_won( results ) {
+export function rounds_won( results ) {
     //Insert your code here 
     let rounds = results.length;
     let won = 0;
