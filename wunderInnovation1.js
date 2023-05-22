@@ -14,3 +14,27 @@ export function rounds_won( results ) {
 }
 
 console.log(rounds_won([ 1,2,2,2,2,2,1]));
+
+
+ function rounds_won2( results ) {
+  //Insert your code here 
+  const map = new Map();
+  for ( let i = 0; i< results.length; i++) {
+    if (map.has(results[i])) {
+      map.set(results[i], map.get(results[i]) +1)  
+    } else {
+      map.set(results[i],1)
+    }
+  }
+
+  let maxCount = 0;
+  for ( let [_, value] of map ) {
+    if ( value > maxCount ) {
+      maxCount = value;
+    }
+  }
+  
+  return maxCount;
+}
+
+console.log(rounds_won2([ 1,2,2,2,2,2,1]));
